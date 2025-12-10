@@ -1,0 +1,10 @@
+### Module positions - created on 2025-08-14 18:06
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 50.050mm, Pcb Width 34.550mm [based on Edge bounding box]
+## Side : bottom
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+Q1            AO3400A             SOT-23                        136.9500   -92.9375   136.0000   -92.0000     -9.0    bottom    SMD
+Q2            AO3400A             SOT-23                        126.8500   -93.0375   125.9000   -92.1000     -9.0    bottom    SMD
+## End

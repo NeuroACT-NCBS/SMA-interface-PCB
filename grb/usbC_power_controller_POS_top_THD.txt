@@ -1,0 +1,20 @@
+### Module positions - created on 2025-08-14 18:06
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 50.050mm, Pcb Width 34.550mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+J4            USB_A_Stacked       USB_A_Wuerth_61400826021_Ho.. 149.4200   -102.1000  149.4200   -102.1000     9.0    top       THD
+R7            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 126.8600   -96.9000   126.8600   -96.9000      0.0    top       THD
+R2            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 126.4000   -83.6600   126.4000   -83.6600     -9.0    top       THD
+R6            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 137.8600   -103.1000  137.8600   -103.1000     0.0    top       THD
+R8            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 126.9600   -100.6000  126.9600   -100.6000     0.0    top       THD
+R4            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 130.4333   -87.9400   130.4333   -87.9400      9.0    top       THD
+R1            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 138.5000   -83.6600   138.5000   -83.6600     -9.0    top       THD
+J1            Conn_Coaxial        SMA_Molex_73251-2200_Horizo.. 138.8000   -76.7200   138.8000   -76.7200      0.0    top       THD
+J3            Conn_01x02_Pin      Molex_Mini-Fit_Jr_5569-02A2.. 152.0000   -77.3750   152.0000   -77.3750      0.0    top       THD
+R5            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 137.8600   -99.2000   137.8600   -99.2000      0.0    top       THD
+R3            R                   R_Axial_DIN0309_L9.0mm_D3.2.. 134.4667   -87.9400   134.4667   -87.9400      9.0    top       THD
+J2            Conn_Coaxial        SMA_Molex_73251-2200_Horizo.. 128.5000   -76.6200   128.5000   -76.6200      0.0    top       THD
+## End
