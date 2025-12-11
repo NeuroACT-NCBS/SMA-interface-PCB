@@ -2312,7 +2312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "SMA:R_tht1270_smd3216"
 			(at 155.702 60.96 90)
 			(effects
 				(font
@@ -2382,7 +2382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "SMA:R_tht1270_smd3216"
 			(at 181.102 68.58 90)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "SMA:R_tht1270_smd3216"
 			(at 179.07 66.548 90)
 			(effects
 				(font
@@ -2729,7 +2729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
+		(property "Footprint" "SMA:SMA_Amphenol_901-143_Horizontal"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -3301,7 +3301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" "SMA:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
 			(at 187.96 35.56 0)
 			(effects
 				(font
