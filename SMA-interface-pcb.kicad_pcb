@@ -662,7 +662,7 @@
 			(uuid "c5b10a0c-efad-490e-bb7a-587a38fade81")
 		)
 		(embedded_fonts no)
-		(model "${TRODES_SMA}/3D models/0026013114.stp"
+		(model "${KIPRJMOD}/Libraries/3D models/0026013114.stp"
 			(offset
 				(xyz 0 14 0)
 			)
