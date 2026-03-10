@@ -1,1 +1,0 @@
-[('J4', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_USB.3dshapes\\USB_A_Wuerth_61400826021_Horizontal_Stacked.step'), ('J3', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_Molex.3dshapes\\Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal.step')]
