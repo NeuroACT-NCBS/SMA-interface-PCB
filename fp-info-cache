@@ -1,4 +1,4 @@
-26795878270776110
+26774437358990808
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2591,6 +2591,13 @@ buzzer piezo
 2
 Buzzer_Beeper
 Buzzer_D14mm_H7mm_P10mm
+Generic Buzzer, D14mm height 7mm with pitch 10mm
+buzzer
+0
+2
+2
+Buzzer_Beeper
+Buzzer_D16mm_H7mm_P10mm
 Generic Buzzer, D14mm height 7mm with pitch 10mm
 buzzer
 0
@@ -46571,6 +46578,20 @@ ethernet 8p8c transformer poe rj45
 15
 14
 Connector_RJ
+RJ45_Amphenol_54602-x08
+8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+RJ45
+0
+8
+8
+Connector_RJ
+RJ45_Amphenol_54602-x08_Custom
+8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+RJ45
+0
+8
+8
+Connector_RJ
 RJ45_Amphenol_54602-x08_Horizontal
 8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
 RJ45
@@ -74717,41 +74738,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCM_kikit
-Board
-Mark board for extraction
-
-0
-0
-0
-PCM_kikit
-Error
-Mark board for extraction
-
-0
-0
-0
-PCM_kikit
-Fiducial
-Circular Fiducial
-fiducial
-0
-1
-0
-PCM_kikit
-NPTH
-
-
-0
-0
-0
-PCM_kikit
-Tab
-A symbol representing annotation for tab placement
-
-0
-0
-0
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -94989,6 +94975,34 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RP2040
+RP2040_Zero
+
+
+0
+23
+23
+RP2040
+RP2040_Zero_Castellated
+
+
+0
+23
+23
+RP2040
+RP2040_Zero_Flipped
+
+
+0
+23
+23
+RP2040
+Untitled
+
+
+0
+0
+0
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -97313,62 +97327,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SMA
-216989-0001_MOL_usbC
-
-2169890001 
-0
-18
-14
-SMA
-AMPHENOL_73725-1180RLF
-
-
-0
-8
-8
-SMA
-Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical
-Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A, example for new mpn: 39-28-x02x, 1 Pins per row, Mounting:  (http://www.molex.com/pdm_docs/sd/039281043_sd.pdf), generated with kicad-footprint-generator
-connector Molex Mini-Fit_Jr vertical
-0
-2
-2
-SMA
-Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal
-Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-02A2, example for new mpn: 39-30-0020, 1 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
-connector Molex Mini-Fit_Jr horizontalplastic_peg
-0
-2
-2
-SMA
-R_tht1270_smd3216
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-4
-2
-SMA
-SMA_Amphenol_901-143_Horizontal
-Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/593645/parent/901-143/
-SMA THT Female Jack Horizontal
-0
-5
-2
-SMA
-USB_A_Connfly_DS1095
-USB type A receptacle, THT, horizontal, https://en.connfly.com/static/upload/file/DS1095.pdf
-Connfly female socket through-hole
-0
-6
-5
-SMA
-USB_A_Wuerth_61400826021_Horizontal_Stacked
-Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf
-Wuerth stacked USB_A
-0
-12
-9
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
