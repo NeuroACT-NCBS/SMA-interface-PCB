@@ -3311,6 +3311,495 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NeuroACT:RP2040-Zero"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RZ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RP2040-Zero"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MacroKeys:RP2040-Zero"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RP2040-Zero_0_1"
+				(rectangle
+					(start -11.43 -15.24)
+					(end 12.7 13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RP2040-Zero_1_1"
+				(pin bidirectional line
+					(at -13.97 10.16 0)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 7.62 0)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -12.7 0)
+					(length 2.54)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "GP27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "GP28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "GP29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 16.51 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 16.51 270)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NeuroACT:TMC2209_SILENTSTEPSTICK"
 			(pin_names
 				(offset 1.016)
@@ -3842,495 +4331,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RP2040_symbol:RP2040-Zero"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RZ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RP2040-Zero"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MacroKeys:RP2040-Zero"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RP2040-Zero_0_1"
-				(rectangle
-					(start -11.43 -15.24)
-					(end 12.7 13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "RP2040-Zero_1_1"
-				(pin bidirectional line
-					(at -13.97 10.16 0)
-					(length 2.54)
-					(name "GP0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 7.62 0)
-					(length 2.54)
-					(name "GP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 5.08 0)
-					(length 2.54)
-					(name "GP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 2.54 0)
-					(length 2.54)
-					(name "GP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 0 0)
-					(length 2.54)
-					(name "GP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -2.54 0)
-					(length 2.54)
-					(name "GP5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -5.08 0)
-					(length 2.54)
-					(name "GP6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "GP7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -10.16 0)
-					(length 2.54)
-					(name "GP8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -12.7 0)
-					(length 2.54)
-					(name "GP9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 2.54)
-					(name "GP10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 2.54)
-					(name "GP11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "GP12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "GP13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "GP14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "GP15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "GP26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "GP27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "GP28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 2.54)
-					(name "GP29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 16.51 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 16.51 270)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4960,6 +4960,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 120.65 12.7)
@@ -5183,6 +5298,12 @@
 		(uuid "32a6442a-d369-41e6-a118-08c0514098c5")
 	)
 	(junction
+		(at 41.91 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3460560a-db11-4801-ace0-cd7ed19b8693")
+	)
+	(junction
 		(at 44.45 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5237,6 +5358,12 @@
 		(uuid "47653814-747a-4be2-a4d3-cd16e438efa9")
 	)
 	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c60202-b281-42fb-9996-604423af7636")
+	)
+	(junction
 		(at 105.41 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5277,6 +5404,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70acf1f1-f0c3-4413-a879-a2afeef015a5")
+	)
+	(junction
+		(at 93.98 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71fe3276-5d99-42e1-a9f4-588b38a40543")
 	)
 	(junction
 		(at 265.43 78.74)
@@ -5357,6 +5490,12 @@
 		(uuid "a0248160-5f4e-4763-923d-b25555512ec8")
 	)
 	(junction
+		(at 139.7 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b19bfef0-40d4-4637-acc1-de8a45e1f06a")
+	)
+	(junction
 		(at 201.93 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5367,6 +5506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b58eb502-a70c-42fc-a1b5-eded57f47756")
+	)
+	(junction
+		(at 44.45 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c19747f4-59f2-4c10-919b-6d120d5f8e09")
 	)
 	(junction
 		(at 270.51 132.08)
@@ -5399,16 +5544,16 @@
 		(uuid "da8c28c1-a4ab-4f41-a4e0-1fdfc62e441a")
 	)
 	(junction
-		(at 139.7 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0e2a052-40f0-47d2-b766-cb6566d76793")
-	)
-	(junction
 		(at 201.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3ab5551-aa1a-4c9c-8e2a-e62c69173236")
+	)
+	(junction
+		(at 39.37 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5963a99-b86e-47d4-9889-6d71c653b8d1")
 	)
 	(junction
 		(at 142.24 50.8)
@@ -5594,6 +5739,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 57.15) (xy 41.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1661597d-44f3-4536-bb7a-72314cf76899")
+	)
+	(wire
+		(pts
 			(xy 83.82 60.96) (xy 93.98 60.96)
 		)
 		(stroke
@@ -5694,7 +5849,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 111.76) (xy 142.24 111.76)
+			(xy 139.7 111.76) (xy 143.51 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5834,6 +5989,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 20.32) (xy 40.64 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4a7b05-970e-4654-a7db-5b72b6aff266")
+	)
+	(wire
+		(pts
 			(xy 26.67 160.02) (xy 26.67 157.48)
 		)
 		(stroke
@@ -5894,6 +6059,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 111.76) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c7aca7-fdb4-4e81-82cf-b8ff489e9912")
+	)
+	(wire
+		(pts
 			(xy 207.01 86.36) (xy 209.55 86.36)
 		)
 		(stroke
@@ -5934,6 +6109,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 20.32) (xy 39.37 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736ca82c-f5b3-4d87-809d-7e3d5059c68b")
+	)
+	(wire
+		(pts
 			(xy 26.67 83.82) (xy 26.67 81.28)
 		)
 		(stroke
@@ -5951,6 +6136,16 @@
 			(type default)
 		)
 		(uuid "758874af-0e32-4d15-a93b-4fb43a1dad5e")
+	)
+	(wire
+		(pts
+			(xy 48.26 20.32) (xy 44.45 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f34429-6d57-47c4-ba4d-337fc8c0bef6")
 	)
 	(wire
 		(pts
@@ -6041,6 +6236,16 @@
 			(type default)
 		)
 		(uuid "95404502-f267-46d8-a15a-85a35bdf7fa8")
+	)
+	(wire
+		(pts
+			(xy 44.45 20.32) (xy 43.18 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9852b04b-af65-47fe-957c-9eff240674e8")
 	)
 	(wire
 		(pts
@@ -6713,7 +6918,7 @@
 		(uuid "3aa5e09c-9dda-4a09-ad3a-5ba789eed285")
 	)
 	(label "3.3V"
-		(at 43.18 20.32 0)
+		(at 48.26 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7243,7 +7448,7 @@
 		(uuid "aec9e741-aa89-4aa6-b7bc-5bbc4f346cf2")
 	)
 	(label "24V_motor"
-		(at 142.24 111.76 0)
+		(at 148.59 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7373,7 +7578,7 @@
 		(uuid "d332ee2d-1621-4e05-b436-cf165d83d416")
 	)
 	(label "5V_main"
-		(at 40.64 20.32 180)
+		(at 36.83 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7534,7 +7739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "004df37d-a6e1-4cc4-b6b4-4643f6d79039")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 26.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7595,7 +7800,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 264.922 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -7683,6 +7888,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 143.51 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02264128-6d0a-4ce2-bc15-7262d777fb14")
+		(property "Reference" "#FLG04"
+			(at 143.51 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 143.51 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dccdb45e-7199-452a-994a-2a4f596ba083")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 265.43 82.55 0)
 		(unit 1)
@@ -7693,7 +7977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "049a4af1-cac7-40a2-840e-ff14cd5ef5aa")
-		(property "Reference" "C17"
+		(property "Reference" "C9"
 			(at 263.906 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,7 +7999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 266.3952 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7757,7 +8041,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C17")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7775,7 +8059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04fa41af-f687-41d5-ab19-81d692fd12db")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR035"
 			(at 26.67 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7836,7 +8120,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7875,7 +8159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 264.922 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -7935,7 +8219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08573061-2e23-423e-b514-3d5c48470836")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 46.99 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +8241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 42.672 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -7999,7 +8283,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8016,7 +8300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "087ae115-b96f-49a5-ba8c-3a8652fd01c0")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8076,7 +8360,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8115,7 +8399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 179.832 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -8278,7 +8562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 94.9452 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8338,7 +8622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0afefeb0-b496-4393-9a3b-aa69b1db7cf4")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 22.86 95.5431 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +8687,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8441,7 +8725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 133.35 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +8782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb8eb5c-71f1-4ae2-bf3f-e28f4c77a934")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR043"
 			(at 44.45 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8559,7 +8843,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR028")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8598,7 +8882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 221.742 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -8658,7 +8942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6b8fb9-0faa-4510-bf47-0a29b9e0cb04")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 104.14 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8718,7 +9002,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8736,7 +9020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8e5dfc-245f-4c76-995d-6871b67a2dfc")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 106.68 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8797,7 +9081,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8815,7 +9099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a6b75d-4c10-435e-9791-288cf6c95135")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR034"
 			(at 144.78 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8876,7 +9160,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR044")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9035,7 +9319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 179.832 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -9215,7 +9499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "152af0f4-b435-4a0a-bafc-670c1b7b5013")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 44.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9276,7 +9560,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9372,7 +9656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16d0cbbc-ce2c-4a98-9ef4-a1b5c20be839")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 196.85 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9432,7 +9716,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9450,7 +9734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18857396-eaea-4381-87b8-22d96ac57fbd")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 212.09 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9511,7 +9795,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9548,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
 			(at 179.07 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9789,7 +10073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cb43af9-6742-48d8-8722-7ecc19d0978d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 151.13 192.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9810,7 +10094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 146.05 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9849,7 +10133,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9867,7 +10151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dc40b44-db01-4e8f-bd06-db5b9418246b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 261.62 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9927,7 +10211,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9945,7 +10229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fd4b291-dd74-4b66-87ce-6a155a5dc878")
-		(property "Reference" "J8"
+		(property "Reference" "J12"
 			(at 113.03 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,7 +10313,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J8")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10047,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202f3f86-0c33-4f71-9066-54169c09507c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR018"
 			(at 209.55 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10107,7 +10391,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR048")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10203,7 +10487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21fa6e23-9474-4231-91b4-dc5cf58f6079")
-		(property "Reference" "C7"
+		(property "Reference" "C16"
 			(at 30.988 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10213,7 +10497,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100 nF 16V"
 			(at 21.336 186.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +10507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 31.75 188.2648 0)
 			(hide yes)
 			(show_name no)
@@ -10265,7 +10549,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C7")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 94.9452 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10385,7 +10669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 84.7852 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2aaf0e8f-57a6-4317-b316-141973876a9a")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 157.48 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10464,7 +10748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 157.48 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -10506,7 +10790,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10658,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 177.8 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -10717,7 +11001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "326dbf40-a091-4686-a53e-9b6e715037f8")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 228.346 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
 			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10961,7 +11245,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10978,7 +11262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32da0735-3258-47d1-907e-afd6930af71d")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 158.242 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 157.48 149.098 90)
 			(hide yes)
 			(show_name no)
@@ -11040,7 +11324,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11077,7 +11361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 262.89 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -11157,7 +11441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 137.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11330,7 +11614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3718b4d0-0a8f-4cdf-9106-6cf5a11b7f30")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR048"
 			(at 24.13 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11390,7 +11674,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR033")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11408,7 +11692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38c3ce3f-22dd-4500-b88a-aaf02ccec77a")
-		(property "Reference" "J11"
+		(property "Reference" "J15"
 			(at 112.522 178.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11492,7 +11776,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J11")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3df34ab4-8bcb-48fa-816f-062020d12fce")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR042"
 			(at 26.67 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +11975,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR027")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11709,7 +11993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401dfcec-8586-4191-be5e-d5f66817e47f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR022"
 			(at 212.09 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11770,7 +12054,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR043")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11904,7 +12188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "424fb858-9c27-49db-8e0f-f6c2b104b705")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 22.86 133.6431 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11969,7 +12253,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12065,7 +12349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b194d5-f6f1-4a3a-84c8-a43ef07390dd")
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 46.99 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12087,7 +12371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 42.672 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -12129,7 +12413,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R19")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12146,7 +12430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48c78a9c-4b08-49d5-8d20-0499696ca431")
-		(property "Reference" "C18"
+		(property "Reference" "C10"
 			(at 268.986 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12168,7 +12452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 271.4752 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12210,7 +12494,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C18")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12408,7 +12692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 221.742 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -12666,7 +12950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e9802fa-a111-45ea-ad50-436cb717ff7a")
-		(property "Reference" "J13"
+		(property "Reference" "J10"
 			(at 203.2 142.2401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +13020,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12889,7 +13173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 138.43 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -12938,6 +13222,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522d7161-ce94-4bfa-b63a-0760b37090c1")
+		(property "Reference" "#FLG03"
+			(at 40.005 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3385d03e-9db1-4d0c-8b86-acf07a5921bd")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 170.18 179.07 0)
 		(unit 1)
@@ -12972,7 +13335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 170.18 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13049,7 +13412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13223,7 +13586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b140160-6fc2-4412-ad1e-31816e75d6c0")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR046"
 			(at 44.45 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13284,7 +13647,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR031")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13417,7 +13780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6098e911-c375-41c3-924f-fd376cfaa5ed")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 222.504 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13437,7 +13800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 222.25 149.098 90)
 			(hide yes)
 			(show_name no)
@@ -13479,7 +13842,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13497,7 +13860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d49a4f-a2ea-4c75-b8e4-48eaa0f4cac4")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR028"
 			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13557,7 +13920,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR046")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13672,7 +14035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 219.71 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -13751,7 +14114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 177.8 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -13811,7 +14174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6669477b-a404-4041-bad3-b619de71a69b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR026"
 			(at 196.85 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13871,7 +14234,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR036")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14087,7 +14450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b30be22-8347-4dd0-88dc-31457074b7e8")
-		(property "Reference" "R22"
+		(property "Reference" "R27"
 			(at 46.99 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14109,7 +14472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 42.672 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -14151,152 +14514,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RP2040_symbol:RP2040-Zero")
-		(at 41.91 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c6c466f-5ac1-46cb-9c4b-0231a3dd5f8b")
-		(property "Reference" "RZ1"
-			(at 44.0533 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RP2040-Zero"
-			(at 44.0533 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RP2040:RP2040_Zero_Castellated"
-			(at 4.572 14.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "cd3f3add-d448-4a4e-af59-cfd0b71fb8af")
-		)
-		(pin "12"
-			(uuid "61b74fd6-a35c-4956-ac0c-d9438f3c85de")
-		)
-		(pin "11"
-			(uuid "cd22f07d-fcea-4266-805f-136984686032")
-		)
-		(pin "10"
-			(uuid "679e0849-b82e-4f11-a099-b1d17257cab7")
-		)
-		(pin "1"
-			(uuid "6548c0c6-bec4-4be9-b909-988558fab6fe")
-		)
-		(pin "23"
-			(uuid "51827ffc-29a8-4db4-95b3-e49f0e4234a9")
-		)
-		(pin "7"
-			(uuid "85ecf29c-af35-4685-9faa-a6c00b28f8fe")
-		)
-		(pin "21"
-			(uuid "70a7ec34-6d9b-457e-a633-e81f89052dd1")
-		)
-		(pin "20"
-			(uuid "4e0203a5-8da1-4529-98db-e9ecb91bfadb")
-		)
-		(pin "18"
-			(uuid "98a524af-8741-4e9e-9a43-cdf862f128fb")
-		)
-		(pin "9"
-			(uuid "a151e2ed-ccbd-4cbd-873d-744662181728")
-		)
-		(pin "6"
-			(uuid "8b6149ca-adf8-4e3c-b500-3d72fea01c77")
-		)
-		(pin "2"
-			(uuid "fb277b87-cfce-4d5a-8e34-d905275ff337")
-		)
-		(pin "4"
-			(uuid "6fc80327-918e-433c-87f8-57ac33868c13")
-		)
-		(pin "8"
-			(uuid "53265b7c-2f63-48d6-9323-86c64bd38816")
-		)
-		(pin "22"
-			(uuid "21639db7-ece9-417a-a6bb-ff8fcb43498d")
-		)
-		(pin "16"
-			(uuid "a938ffbe-7ade-4bdc-9b63-d93cfe6b3613")
-		)
-		(pin "3"
-			(uuid "b9179dd9-21d1-48ba-88b6-dde08ae9103a")
-		)
-		(pin "15"
-			(uuid "85bac02a-cf79-48a2-a00d-3dd97ca6075f")
-		)
-		(pin "14"
-			(uuid "ff4e5b61-43f4-4908-94c3-2c26bbc0de69")
-		)
-		(pin "5"
-			(uuid "9fa8afdb-b516-4420-8ce5-8ddf687be369")
-		)
-		(pin "19"
-			(uuid "00bcd5c1-45db-477a-bac1-712f27024610")
-		)
-		(pin "17"
-			(uuid "6731a498-1157-4c87-b6da-9d0c4bf48146")
-		)
-		(instances
-			(project "SMA-interface-pcb"
-				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "RZ1")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14313,7 +14531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e5b4f28-5739-4d2a-a600-50bdabda7f11")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 125.984 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14334,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 132.08 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14373,7 +14591,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14390,7 +14608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e6125a2-4e7b-4b95-a58f-d3fdcb7bc7bf")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 200.406 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14412,7 +14630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 202.8952 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14454,7 +14672,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14472,7 +14690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "710547eb-b8da-4729-95d4-dbc807982718")
-		(property "Reference" "J10"
+		(property "Reference" "J14"
 			(at 22.86 171.7431 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14537,7 +14755,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J10")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -14555,7 +14773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "717a52fd-621c-4bfd-ba75-d335f8b469a5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR049"
 			(at 67.31 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14616,7 +14834,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR034")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14734,7 +14952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 42.672 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -14794,7 +15012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "782cc871-43a8-4bd1-97df-54f0d7b92734")
-		(property "Reference" "J12"
+		(property "Reference" "J5"
 			(at 203.2 96.5201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14864,7 +15082,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J12")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14959,7 +15177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80c0aece-5271-4d6c-9fca-29fa619a968f")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 161.798 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14979,7 +15197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15203,7 +15421,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15221,7 +15439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8174bcd5-0e7b-4d8e-ace6-0b17b7f21039")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR033"
 			(at 273.05 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15281,7 +15499,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR050")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15411,7 +15629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 262.89 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -15471,7 +15689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac25756-3a82-4193-833d-d5b5299fa9da")
-		(property "Reference" "R20"
+		(property "Reference" "R23"
 			(at 46.99 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15493,7 +15711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 42.672 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -15535,7 +15753,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R20")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -15553,7 +15771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c0db656-348a-40f5-a9ee-08b4b10f8be6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR045"
 			(at 26.67 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15614,7 +15832,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR030")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15737,7 +15955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e599fa7-eaec-4dd0-840a-1e12dc446bf9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 44.45 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -15798,7 +16016,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR023")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15815,7 +16033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ec4f6b0-f9f7-4857-a19a-02716d0d4495")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 129.54 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15837,7 +16055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 133.858 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -15879,15 +16097,15 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 54.61 0)
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15896,9 +16114,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93c3de1d-cd90-4d24-a386-9ee62cbc1129")
-		(property "Reference" "#PWR08"
-			(at 41.91 60.96 0)
+		(uuid "932e881d-e623-42a6-8483-a678566dd07e")
+		(property "Reference" "#FLG01"
+			(at 39.37 18.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15908,8 +16126,9 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 59.69 0)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 15.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15919,7 +16138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 54.61 0)
+			(at 39.37 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15930,7 +16149,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 54.61 0)
+			(at 39.37 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e97acf17-bf1d-4a7b-b1c9-0869e73f060c")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c3de1d-cd90-4d24-a386-9ee62cbc1129")
+		(property "Reference" "#PWR09"
+			(at 41.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15941,7 +16238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 54.61 0)
+			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15957,7 +16254,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15975,7 +16272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94618245-5f5d-4093-ab12-7edd099deb8a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR039"
 			(at 144.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16036,7 +16333,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR045")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16075,7 +16372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 105.1052 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16135,7 +16432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99daf66c-2559-4204-ae6d-a539dec21297")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 22.86 114.5931 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16200,7 +16497,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -16217,7 +16514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a1379dd-7f88-49cc-98f1-d79a6fb3b3b1")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 205.486 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16239,7 +16536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 207.9752 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16281,7 +16578,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16299,7 +16596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a21c8f9-6b67-4084-975b-906e2bbc87ab")
-		(property "Reference" "J9"
+		(property "Reference" "J13"
 			(at 22.86 152.6931 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16364,7 +16661,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J9")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -16403,7 +16700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.462 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -16484,7 +16781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.462 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -16564,7 +16861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 132.08 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16621,7 +16918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fe8c7cd-9bc2-45dd-af67-b800e481ee00")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 46.99 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16643,7 +16940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 42.672 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -16685,7 +16982,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -16863,7 +17160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a49c4155-3848-4eef-a33d-e5375af4358c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR032"
 			(at 209.55 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16923,7 +17220,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR049")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17042,7 +17339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L16.0mm_W8.0mm_P7.62mm"
 			(at 99.06 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17102,7 +17399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa14a715-68f6-4d63-8663-4e8391a1db54")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR029"
 			(at 26.67 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -17163,7 +17460,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR022")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17181,7 +17478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abce4976-f733-4f00-b3ea-0e338b4c0828")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 113.03 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17242,7 +17539,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17260,7 +17557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac331def-f243-4919-ba4a-f546aa9213a4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR044"
 			(at 115.57 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17320,7 +17617,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR029")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17357,7 +17654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 219.71 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -17558,7 +17855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 84.7852 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17618,7 +17915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0373277-40a5-4cee-aa99-d7aa1ff07fa2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR047"
 			(at 146.05 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17678,7 +17975,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR032")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17881,7 +18178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1788f26-cda9-453a-b279-eb2b560da6f5")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 222.25 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17901,7 +18198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 222.25 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -17943,7 +18240,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17961,7 +18258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6fb9a64-f26f-4d1a-a4cc-1cf43bc428ea")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR019"
 			(at 273.05 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -18021,7 +18318,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR051")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18059,7 +18356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 140.97 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18196,7 +18493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b86e244e-21c0-47a7-939b-abf3ebe497c0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR037"
 			(at 147.32 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18257,7 +18554,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR041")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18394,7 +18691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb27925c-9d36-4839-a743-f0bbdba04899")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 227.838 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18414,7 +18711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
 			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18638,7 +18935,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -18679,7 +18976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 170.18 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -18813,7 +19110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdf0d117-8b0f-49bb-a42a-b8a17f4e3722")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 205.486 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18835,7 +19132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 207.9752 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18877,7 +19174,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18972,7 +19269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf33a972-d3bd-49d7-9d8f-9302b1a42a25")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 268.986 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18994,7 +19291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 271.4752 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -19036,7 +19333,86 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C16")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 93.98 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5cab81a-0185-4b41-8912-594a469afb01")
+		(property "Reference" "#FLG05"
+			(at 95.885 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 93.98 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a06cb87-7932-43ba-b94a-d06fb94cf46e")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -19132,7 +19508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9a15d6c-9609-4d90-ba98-f725d1d76bb9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR027"
 			(at 261.62 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -19192,7 +19568,86 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR039")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da889b6d-a300-403e-b086-8d8183c27097")
+		(property "Reference" "#FLG02"
+			(at 44.45 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8810d6ae-d282-49af-b584-e52f838f4ff3")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -19288,7 +19743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc43149-89d1-4d3f-aa36-589748c9f196")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR050"
 			(at 115.57 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -19348,7 +19803,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR035")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -19481,7 +19936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de8d8f5b-e2ae-47a3-b433-362f2daed73e")
-		(property "Reference" "R28"
+		(property "Reference" "R18"
 			(at 157.226 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19501,7 +19956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 156.718 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -19543,7 +19998,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "R28")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -19580,7 +20035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 138.43 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -19629,6 +20084,151 @@
 		)
 	)
 	(symbol
+		(lib_id "NeuroACT:RP2040-Zero")
+		(at 41.91 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2ab9a4f-2fd2-45a3-97a0-b6bd8c10f5f1")
+		(property "Reference" "RZ1"
+			(at 44.0533 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2040-Zero"
+			(at 44.0533 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NeuroACT:RP2040_Zero"
+			(at 44.0533 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "e966311a-96ac-40fe-a830-ec398c9a17c7")
+		)
+		(pin "4"
+			(uuid "ca385abe-e0d2-4b5d-b11f-4b541b75d1ad")
+		)
+		(pin "7"
+			(uuid "0e0e874d-f440-4964-b9df-86520855b069")
+		)
+		(pin "5"
+			(uuid "19e4ec86-120d-4c71-872a-0a1244efc13b")
+		)
+		(pin "9"
+			(uuid "84939535-3160-4ab5-b321-0a3407a7ba38")
+		)
+		(pin "8"
+			(uuid "9b7db048-0f53-4d8a-87b2-714a856cedbf")
+		)
+		(pin "15"
+			(uuid "44c62d3e-203a-4001-b479-450bddade04b")
+		)
+		(pin "16"
+			(uuid "6a408c10-f09b-4f23-9565-47a10fcb7afb")
+		)
+		(pin "12"
+			(uuid "d890565f-17d1-4aa7-9cf6-44cca7cd896a")
+		)
+		(pin "11"
+			(uuid "ca739297-9b3a-478a-841e-b82a366bb90b")
+		)
+		(pin "21"
+			(uuid "0a4e5059-3567-4aa0-af25-7d38435efb1b")
+		)
+		(pin "13"
+			(uuid "1c4cda97-f957-4ff4-aa33-454a328e63ec")
+		)
+		(pin "20"
+			(uuid "602ae300-6da1-4d3d-944d-93bb1d51d0de")
+		)
+		(pin "17"
+			(uuid "f37c2dda-0b38-4137-9f78-021f69614afb")
+		)
+		(pin "19"
+			(uuid "c4fb78db-2758-42c0-9ebc-9ba781107f60")
+		)
+		(pin "22"
+			(uuid "69e50c0e-e3bc-471f-acba-6c40389d27e0")
+		)
+		(pin "10"
+			(uuid "1e5c6062-b8bb-4c4f-a137-f074e1901ae4")
+		)
+		(pin "14"
+			(uuid "1bcaccc6-f9ba-4c58-a8c0-0c6629ce037a")
+		)
+		(pin "18"
+			(uuid "4d98a1d9-2fbd-427e-81c4-f0e3973b26af")
+		)
+		(pin "23"
+			(uuid "69211f99-716d-4555-9f02-5e01aadca5fb")
+		)
+		(pin "3"
+			(uuid "c80c035c-1e3c-4fd9-9063-a4e766bb4378")
+		)
+		(pin "1"
+			(uuid "078ccdea-c618-4f15-a07b-a5c39a4a1949")
+		)
+		(pin "2"
+			(uuid "1783e480-3ad6-4f87-b392-828afcb4b2c1")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "RZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 266.7 93.98 0)
 		(mirror y)
@@ -19640,7 +20240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e46e68cc-fe67-4711-b98d-e25af7bd86c2")
-		(property "Reference" "J15"
+		(property "Reference" "J6"
 			(at 267.97 96.5201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19710,7 +20310,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J15")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -19829,7 +20429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 170.18 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19906,7 +20506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 170.18 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19960,7 +20560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb662c6b-e2c1-4efd-8115-3404c5d1c448")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR021"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20021,7 +20621,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR040")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -20117,7 +20717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eee142e0-abc5-40f7-b06d-a0e484f91336")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 145.288 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20139,7 +20739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 140.6652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20181,7 +20781,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -20222,7 +20822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 170.18 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -20479,7 +21079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5b3847b-c7c5-423a-80c4-c509bfe965b2")
-		(property "Reference" "J14"
+		(property "Reference" "J11"
 			(at 267.97 142.2401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20549,7 +21149,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "J14")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -20566,7 +21166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6ebe769-9389-4f26-aca2-7380aadf4b8c")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 200.406 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20588,7 +21188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 202.8952 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -20630,7 +21230,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -20648,7 +21248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a31736-59cf-4cd5-85ff-23339ec2055b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR036"
 			(at 44.45 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -20709,7 +21309,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "#PWR026")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -20748,7 +21348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 105.1052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20807,7 +21407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff717446-7f5e-48a4-b8ac-e65c371dfe15")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 263.906 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20829,7 +21429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 266.3952 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -20871,7 +21471,7 @@
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
