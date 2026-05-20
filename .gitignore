@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# KiCad backups
+*.bak
+*.bck
+*-backups/
+
+# KiCad lock files
+*.lck
+
+#random?
+
+.history
+C:\\Users\\User\\Desktop\\kleplace.log
