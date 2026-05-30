@@ -1227,129 +1227,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_A_Stacked"
 			(pin_names
 				(offset 1.016)
@@ -1817,6 +1694,280 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3047,9 +3198,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3057,7 +3212,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3066,8 +3221,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3098,7 +3253,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3120,7 +3275,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3131,9 +3286,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -3141,6 +3296,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4058,8 +4233,8 @@
 			)
 			(symbol "TMC2209_SILENTSTEPSTICK_0_0"
 				(rectangle
-					(start -12.7 -20.32)
-					(end 12.7 20.32)
+					(start -12.7 20.32)
+					(end 12.7 -20.32)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4097,78 +4272,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "M1B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "M1A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "M2A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "M2B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4386,6 +4489,80 @@
 						)
 					)
 					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TMC2209_SILENTSTEPSTICK_1_0"
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "M2B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "M2A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "M1A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "M1B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5308,12 +5485,6 @@
 		(uuid "0a793b43-22e8-4919-98cb-909a39706183")
 	)
 	(junction
-		(at 132.08 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "137f994a-711f-41e6-9c5b-27543687a6f8")
-	)
-	(junction
 		(at 44.45 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5348,12 +5519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c77328b-9f06-48b0-b914-4dbb4ea6181c")
-	)
-	(junction
-		(at 132.08 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32a6442a-d369-41e6-a118-08c0514098c5")
 	)
 	(junction
 		(at 41.91 57.15)
@@ -5440,10 +5605,28 @@
 		(uuid "57ed363a-c38b-49bd-8457-44a14be5a80d")
 	)
 	(junction
+		(at 163.83 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5edc7501-59ad-4b2c-8d55-355fc8b43853")
+	)
+	(junction
+		(at 163.83 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64c7b3b3-e83a-4f96-bf32-547a5ba38c9f")
+	)
+	(junction
 		(at 93.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64cee248-9dce-4ac0-baeb-b9f9584aabb9")
+	)
+	(junction
+		(at 163.83 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69fc536f-752a-48ac-acec-5c1900adfd4b")
 	)
 	(junction
 		(at 181.61 50.8)
@@ -5590,6 +5773,12 @@
 		(uuid "d23bdf8d-3269-4296-8d63-56ea638c5795")
 	)
 	(junction
+		(at 163.83 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3412b83-f1c4-44ab-92a6-bf9d72bac918")
+	)
+	(junction
 		(at 207.01 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5618,6 +5807,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5dad3b3-aec0-46be-a33c-a4921350b5cb")
+	)
+	(junction
+		(at 163.83 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f16a9f6b-58f5-40ca-bdc4-0bfd53558113")
 	)
 	(junction
 		(at 207.01 124.46)
@@ -5887,16 +6082,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 190.5) (xy 132.08 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "339bdb7c-fb87-4016-8aa1-12a4c5d5cd07")
-	)
-	(wire
-		(pts
 			(xy 265.43 86.36) (xy 270.51 86.36)
 		)
 		(stroke
@@ -6137,6 +6322,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 179.07) (xy 163.83 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eba329f-aa53-480d-a030-8a4e6ef2e158")
+	)
+	(wire
+		(pts
 			(xy 83.82 85.09) (xy 93.98 85.09)
 		)
 		(stroke
@@ -6264,6 +6459,26 @@
 			(type default)
 		)
 		(uuid "901307fb-0fef-4d64-9445-307800a392bb")
+	)
+	(wire
+		(pts
+			(xy 163.83 173.99) (xy 163.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b43afe-0d4a-4c25-a251-a5a4702b634f")
+	)
+	(wire
+		(pts
+			(xy 163.83 189.23) (xy 163.83 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9265ab30-9511-43c9-860f-b515a11578f8")
 	)
 	(wire
 		(pts
@@ -6427,6 +6642,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 184.15) (xy 163.83 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6b3af5-6e1c-40c1-97e0-bd461fdf66b6")
+	)
+	(wire
+		(pts
+			(xy 163.83 168.91) (xy 163.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc31f107-2b64-48b4-86c1-f8ba4eeb50b9")
+	)
+	(wire
+		(pts
 			(xy 154.94 74.93) (xy 154.94 76.2)
 		)
 		(stroke
@@ -6477,16 +6712,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 187.96) (xy 132.08 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83492f4-c8ad-4096-baea-2826adfd73e0")
-	)
-	(wire
-		(pts
 			(xy 31.75 189.23) (xy 35.56 189.23)
 		)
 		(stroke
@@ -6494,16 +6719,6 @@
 			(type default)
 		)
 		(uuid "c91cffdf-453e-447b-8353-74e8e972794b")
-	)
-	(wire
-		(pts
-			(xy 132.08 179.07) (xy 132.08 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bbb99e-0471-4007-99a7-767bd4b465d6")
 	)
 	(wire
 		(pts
@@ -6705,16 +6920,6 @@
 		)
 		(uuid "fd5f5e7d-ac4d-4f10-8176-d12165f63daf")
 	)
-	(wire
-		(pts
-			(xy 132.08 176.53) (xy 132.08 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd838f17-2f13-496c-b412-e1b077c74f09")
-	)
 	(label "3.3V"
 		(at 196.85 121.92 0)
 		(effects
@@ -6806,7 +7011,7 @@
 		(uuid "148136bb-183a-4589-920e-19fc3a1646aa")
 	)
 	(label "+5V_BUCK"
-		(at 132.08 176.53 180)
+		(at 132.08 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6935,6 +7140,16 @@
 		)
 		(uuid "320e6768-2f48-4dd3-a6fa-7ccda790e9fd")
 	)
+	(label "5V_main"
+		(at 149.86 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "322769d3-f789-45e8-9734-d004a1cc3acd")
+	)
 	(label "3.3V"
 		(at 261.62 76.2 0)
 		(effects
@@ -6996,12 +7211,12 @@
 		(uuid "3fad262f-f6dc-4e48-863c-98bd2d619e31")
 	)
 	(label "24V_motor"
-		(at 151.13 186.69 90)
+		(at 137.16 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "415b10a1-80dc-4f7b-a25d-ccd17f164dbc")
 	)
@@ -7016,12 +7231,12 @@
 		(uuid "42429ab5-366a-4ff0-9154-170727d43e39")
 	)
 	(label "24V_input"
-		(at 142.24 186.69 90)
+		(at 137.16 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4244fcf1-aebe-4a01-bfa8-aa9de47e0cb6")
 	)
@@ -7256,12 +7471,12 @@
 		(uuid "741ee86a-2bbb-4cf2-ace4-e358611f9655")
 	)
 	(label "5V_main"
-		(at 132.08 194.31 180)
+		(at 139.7 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "76c9c812-2c7c-473a-b5c4-48dc0fc0b779")
 	)
@@ -7576,12 +7791,12 @@
 		(uuid "c4d5f640-7681-40d7-a8bc-43c97598f672")
 	)
 	(label "24V_protected"
-		(at 138.43 186.69 90)
+		(at 137.16 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c5db0348-b5ac-4a23-b206-4e3249985ebb")
 	)
@@ -7664,6 +7879,16 @@
 			(justify right bottom)
 		)
 		(uuid "dc82a5e1-ca20-4b05-baa2-64f94c886739")
+	)
+	(label "+5V_BUCK"
+		(at 149.86 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd386953-c619-4dd8-8517-10ca602dae22")
 	)
 	(label "mot_step_B"
 		(at 57.15 29.21 0)
@@ -8288,7 +8513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "10k"
 			(at 46.99 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +8928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "NeuroACT:SMA_Amphenol_901-143_Horizontal"
 			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8746,83 +8971,6 @@
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 186.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b983228-606b-453a-bca7-4ddb2b9180df")
-		(property "Reference" "TP2"
-			(at 138.43 192.786 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 135.89 189.992 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 133.35 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8348a88-96b9-48c3-b9a6-26233d3fc676")
-		)
-		(instances
-			(project "SMA-interface-pcb"
-				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9890,7 +10038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 179.07 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10121,83 +10269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 151.13 186.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cb43af9-6742-48d8-8722-7ecc19d0978d")
-		(property "Reference" "TP5"
-			(at 151.13 192.786 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 148.59 189.992 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 146.05 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 151.13 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acaea148-7ef7-4244-acb1-20350dc648b6")
-		)
-		(instances
-			(project "SMA-interface-pcb"
-				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 261.62 157.48 0)
 		(unit 1)
@@ -10307,7 +10378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+		(property "Footprint" "NeuroACT:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 			(at 99.06 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11079,7 +11150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11468,8 +11539,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 186.69 180)
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 144.78 182.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11477,9 +11548,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3595969d-281d-4d48-a699-bc33325478a8")
-		(property "Reference" "TP3"
-			(at 142.24 192.786 90)
+		(uuid "346ac69d-7107-4337-a6cf-fb033bfb9409")
+		(property "Reference" "J16"
+			(at 143.51 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11488,9 +11559,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 139.7 189.992 90)
-			(hide yes)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 143.51 188.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11499,8 +11569,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 137.16 186.69 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+			(at 144.78 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,7 +11581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 186.69 0)
+			(at 144.78 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11521,8 +11591,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 142.24 186.69 0)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11531,14 +11601,29 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "3"
+			(uuid "6eb9e623-31a7-42e1-b28c-4bab229be7a2")
 		)
 		(pin "1"
-			(uuid "24e540f2-67f2-44f0-8aec-00c0fee3e8be")
+			(uuid "a31550a3-f3cb-40fb-b84b-7f2028875453")
+		)
+		(pin "2"
+			(uuid "21c95364-2b7b-40dd-b9a7-ae2922ecd1b2")
+		)
+		(pin "6"
+			(uuid "91eade5b-69e4-4ad3-96b0-c005843336a9")
+		)
+		(pin "5"
+			(uuid "d30e0e0f-74fe-4cf3-a4a0-5a6e69604e09")
+		)
+		(pin "4"
+			(uuid "8f977585-6112-437d-88f5-ab0f7403ea8e")
 		)
 		(instances
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP3")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -11770,7 +11855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+		(property "Footprint" "NeuroACT:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 			(at 99.06 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -12269,7 +12354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "NeuroACT:SMA_Amphenol_901-143_Horizontal"
 			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12418,7 +12503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "10k"
 			(at 46.99 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13359,8 +13444,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 170.18 179.07 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 179.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13371,7 +13456,7 @@
 		(fields_autoplaced yes)
 		(uuid "56b6b011-b002-44f6-b668-b41acb4f35c9")
 		(property "Reference" "H3"
-			(at 172.72 177.7999 0)
+			(at 170.18 179.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13382,7 +13467,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 180.3399 0)
+			(at 165.1001 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13394,7 +13479,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 179.07 0)
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13405,7 +13490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 179.07 0)
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,8 +13500,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 179.07 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,6 +13510,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "71f370ee-cca7-4e88-815c-0fd71da40682")
 		)
 		(instances
 			(project "SMA-interface-pcb"
@@ -13436,8 +13524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 170.18 173.99 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13448,7 +13536,7 @@
 		(fields_autoplaced yes)
 		(uuid "57a0fd09-8857-4b20-bc02-0d76c2e1c6e2")
 		(property "Reference" "H2"
-			(at 172.72 172.7199 0)
+			(at 170.18 173.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13459,7 +13547,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 175.2599 0)
+			(at 165.1001 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,7 +13559,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 173.99 0)
+			(at 166.37 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13482,7 +13570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 173.99 0)
+			(at 166.37 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13492,8 +13580,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 173.99 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13502,6 +13590,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "325161e5-c00f-4c3e-abb9-1029adbd2c80")
 		)
 		(instances
 			(project "SMA-interface-pcb"
@@ -14601,7 +14692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "10k"
 			(at 46.99 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,83 +14752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 190.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e5b4f28-5739-4d2a-a600-50bdabda7f11")
-		(property "Reference" "TP6"
-			(at 125.984 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.778 187.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 132.08 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "beb08183-b5b2-46ce-a0b0-af0679de27e8")
-		)
-		(instances
-			(project "SMA-interface-pcb"
-				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 201.93 82.55 0)
 		(unit 1)
@@ -14749,7 +14763,7 @@
 		(dnp no)
 		(uuid "6e6125a2-4e7b-4b95-a58f-d3fdcb7bc7bf")
 		(property "Reference" "C7"
-			(at 200.406 80.518 0)
+			(at 200.406 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14853,7 +14867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "NeuroACT:SMA_Amphenol_901-143_Horizontal"
 			(at 26.67 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15081,7 +15095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "10k"
 			(at 46.99 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15337,7 +15351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15840,7 +15854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "10k"
 			(at 46.99 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16010,7 +16024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:Jumper_Harwin_S1621_P10.9mm"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 133.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16164,7 +16178,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 184.15 180)
+		(at 135.89 172.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16174,7 +16188,7 @@
 		(dnp no)
 		(uuid "8ec4f6b0-f9f7-4857-a19a-02716d0d4495")
 		(property "Reference" "R28"
-			(at 129.54 185.4201 0)
+			(at 134.112 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16185,7 +16199,7 @@
 			)
 		)
 		(property "Value" "0 ohm"
-			(at 129.54 182.8801 0)
+			(at 132.842 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16196,7 +16210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.858 184.15 90)
+			(at 135.89 170.942 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16207,7 +16221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 184.15 0)
+			(at 135.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16218,7 +16232,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 184.15 0)
+			(at 135.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16595,7 +16609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "NeuroACT:SMA_Amphenol_901-143_Horizontal"
 			(at 26.67 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16655,7 +16669,7 @@
 		(dnp no)
 		(uuid "9a1379dd-7f88-49cc-98f1-d79a6fb3b3b1")
 		(property "Reference" "C8"
-			(at 205.486 80.518 0)
+			(at 205.486 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16759,7 +16773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "NeuroACT:SMA_Amphenol_901-143_Horizontal"
 			(at 26.67 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16970,83 +16984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9fa0b659-ba26-4b8e-9c47-8dfc7230d980")
-		(property "Reference" "TP1"
-			(at 125.984 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.778 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 132.08 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae4548ae-696b-4b1a-b12a-0e5f36e1062e")
-		)
-		(instances
-			(project "SMA-interface-pcb"
-				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 44.45 99.06 0)
 		(unit 1)
@@ -17069,7 +17006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "10k"
 			(at 46.99 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18045,7 +17982,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 186.69 180)
+		(at 149.86 185.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18056,7 +17993,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0373277-40a5-4cee-aa99-d7aa1ff07fa2")
 		(property "Reference" "#PWR047"
-			(at 146.05 180.34 0)
+			(at 156.21 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18067,7 +18004,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 181.61 0)
+			(at 151.13 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18077,7 +18014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 186.69 0)
+			(at 149.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18088,7 +18025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 186.69 0)
+			(at 149.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18099,7 +18036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 186.69 0)
+			(at 149.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18153,7 +18090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:Jumper_Harwin_S1621_P10.9mm"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 133.35 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18378,83 +18315,6 @@
 			(project "SMA-interface-pcb"
 				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 186.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b79423f4-492c-46f5-b0f7-412f76d2dce4")
-		(property "Reference" "TP4"
-			(at 146.05 192.786 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 143.51 189.992 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 140.97 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c43bb7bc-a03c-423b-8ce2-a0a64464ac9f")
-		)
-		(instances
-			(project "SMA-interface-pcb"
-				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -18770,7 +18630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NeuroACT:MODULE_TMC2208_SILENTSTEPSTICK"
+		(property "Footprint" "NeuroACT:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -19001,8 +18861,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 170.18 168.91 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 168.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19013,7 +18873,7 @@
 		(fields_autoplaced yes)
 		(uuid "bffd3e88-c1b2-426f-91f1-9835f1da8b80")
 		(property "Reference" "H1"
-			(at 172.72 167.6399 0)
+			(at 170.18 168.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19024,7 +18884,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 170.1799 0)
+			(at 165.1001 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19036,7 +18896,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 168.91 0)
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19047,7 +18907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 168.91 0)
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19057,8 +18917,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 168.91 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19067,6 +18927,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "a682e0f1-aa48-492d-8d45-84781d0677d9")
 		)
 		(instances
 			(project "SMA-interface-pcb"
@@ -20455,8 +20318,87 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 170.18 184.15 0)
+		(lib_id "power:GND")
+		(at 163.83 168.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e743eeef-a551-46cb-b96c-b35c1f4593f2")
+		(property "Reference" "#PWR051"
+			(at 157.48 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 168.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7a7efe8-15a8-4162-80fb-91b8fce2badc")
+		)
+		(instances
+			(project "SMA-interface-pcb"
+				(path "/1b692b7f-b8ae-49aa-8b51-104b8775e5cf"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 184.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20467,7 +20409,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7923aac-d7a5-4bac-8258-c31a9613bb51")
 		(property "Reference" "H4"
-			(at 172.72 182.8799 0)
+			(at 170.18 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20478,7 +20420,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 185.4199 0)
+			(at 165.1001 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20490,7 +20432,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 184.15 0)
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20501,7 +20443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 184.15 0)
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20511,8 +20453,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 184.15 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20521,6 +20463,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "02f2efa2-cd3d-426e-b66c-b97b4f734df3")
 		)
 		(instances
 			(project "SMA-interface-pcb"
@@ -20532,8 +20477,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 170.18 194.31 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 194.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20544,7 +20489,7 @@
 		(fields_autoplaced yes)
 		(uuid "e93c5f1f-8d61-4867-b013-2eb3e9a55eef")
 		(property "Reference" "H6"
-			(at 172.72 193.0399 0)
+			(at 170.18 194.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20555,7 +20500,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 195.5799 0)
+			(at 165.1001 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20567,7 +20512,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 194.31 0)
+			(at 166.37 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20578,7 +20523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 194.31 0)
+			(at 166.37 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20588,8 +20533,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 194.31 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20598,6 +20543,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "bc53e78a-fc8b-43ae-842d-03a6a762225e")
 		)
 		(instances
 			(project "SMA-interface-pcb"
@@ -20848,8 +20796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 170.18 189.23 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 189.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20860,7 +20808,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef380b87-6c6f-452b-995d-c34944b5db8a")
 		(property "Reference" "H5"
-			(at 172.72 187.9599 0)
+			(at 170.18 189.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20871,7 +20819,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 190.4999 0)
+			(at 165.1001 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20883,7 +20831,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 170.18 189.23 0)
+			(at 166.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20894,7 +20842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 189.23 0)
+			(at 166.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20904,8 +20852,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 189.23 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20914,6 +20862,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "56699224-1c5c-40d6-9720-8d4f5955b94b")
 		)
 		(instances
 			(project "SMA-interface-pcb"
@@ -21079,7 +21030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "NeuroACT:SMA_Amphenol_901-143_Horizontal"
 			(at 26.67 76.2 0)
 			(hide yes)
 			(show_name no)
