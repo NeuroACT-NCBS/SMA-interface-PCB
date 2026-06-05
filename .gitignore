@@ -1,6 +1,12 @@
 # macOS
 .DS_Store
 
+#gerbers
+gerber*/
+
+# kiri
+.kiri/
+
 # KiCad backups
 *.bak
 *.bck
@@ -13,3 +19,4 @@
 
 .history
 C:\\Users\\User\\Desktop\\kleplace.log
+.DS_Store
